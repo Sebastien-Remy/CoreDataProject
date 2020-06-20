@@ -14,9 +14,10 @@
 		96008E3A249E576600D1548E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96008E39249E576600D1548E /* Assets.xcassets */; };
 		96008E3D249E576600D1548E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96008E3C249E576600D1548E /* Preview Assets.xcassets */; };
 		96008E40249E576600D1548E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96008E3E249E576600D1548E /* LaunchScreen.storyboard */; };
-		96008E51249E62D200D1548E /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E4F249E62D200D1548E /* Singer+CoreDataClass.swift */; };
-		96008E52249E62D200D1548E /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E50249E62D200D1548E /* Singer+CoreDataProperties.swift */; };
-		96008E54249E64C600D1548E /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E53249E64C600D1548E /* FilteredList.swift */; };
+		96008E59249E6FC100D1548E /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E55249E6FC100D1548E /* Candy+CoreDataClass.swift */; };
+		96008E5A249E6FC100D1548E /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E56249E6FC100D1548E /* Candy+CoreDataProperties.swift */; };
+		96008E5B249E6FC100D1548E /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E57249E6FC100D1548E /* Country+CoreDataClass.swift */; };
+		96008E5C249E6FC100D1548E /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E58249E6FC100D1548E /* Country+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +30,10 @@
 		96008E3C249E576600D1548E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96008E3F249E576600D1548E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96008E41249E576600D1548E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96008E4F249E62D200D1548E /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		96008E50249E62D200D1548E /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		96008E53249E64C600D1548E /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		96008E55249E6FC100D1548E /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		96008E56249E6FC100D1548E /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		96008E57249E6FC100D1548E /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		96008E58249E6FC100D1548E /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +66,13 @@
 		96008E2F249E576200D1548E /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
-				96008E4F249E62D200D1548E /* Singer+CoreDataClass.swift */,
-				96008E50249E62D200D1548E /* Singer+CoreDataProperties.swift */,
+				96008E55249E6FC100D1548E /* Candy+CoreDataClass.swift */,
+				96008E56249E6FC100D1548E /* Candy+CoreDataProperties.swift */,
+				96008E57249E6FC100D1548E /* Country+CoreDataClass.swift */,
+				96008E58249E6FC100D1548E /* Country+CoreDataProperties.swift */,
 				96008E30249E576200D1548E /* AppDelegate.swift */,
 				96008E32249E576200D1548E /* SceneDelegate.swift */,
 				96008E37249E576200D1548E /* ContentView.swift */,
-				96008E53249E64C600D1548E /* FilteredList.swift */,
 				96008E39249E576600D1548E /* Assets.xcassets */,
 				96008E3E249E576600D1548E /* LaunchScreen.storyboard */,
 				96008E41249E576600D1548E /* Info.plist */,
@@ -159,10 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				96008E31249E576200D1548E /* AppDelegate.swift in Sources */,
-				96008E52249E62D200D1548E /* Singer+CoreDataProperties.swift in Sources */,
+				96008E59249E6FC100D1548E /* Candy+CoreDataClass.swift in Sources */,
 				96008E33249E576200D1548E /* SceneDelegate.swift in Sources */,
-				96008E54249E64C600D1548E /* FilteredList.swift in Sources */,
-				96008E51249E62D200D1548E /* Singer+CoreDataClass.swift in Sources */,
+				96008E5A249E6FC100D1548E /* Candy+CoreDataProperties.swift in Sources */,
+				96008E5C249E6FC100D1548E /* Country+CoreDataProperties.swift in Sources */,
+				96008E5B249E6FC100D1548E /* Country+CoreDataClass.swift in Sources */,
 				96008E38249E576200D1548E /* ContentView.swift in Sources */,
 				96008E36249E576200D1548E /* CoreDataProject.xcdatamodeld in Sources */,
 			);
